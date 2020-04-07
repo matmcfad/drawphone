@@ -13,7 +13,7 @@ on:
     types: [created]
 
 env:
-  AZURE_WEBAPP_NAME: drawphone-drawphonetest    # set this to your application's name
+  AZURE_WEBAPP_NAME: drawphone-drawphonetest.azurewebsites.net    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: ${{ env.WEBSITE_NODE_DEFAULT_VERSION }}            # set this to the node version to use
 
